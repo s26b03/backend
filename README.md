@@ -1,0 +1,2 @@
+# backend
+is an episode by episode breakdown of a season of SharkTank ( A popular reality TV show, where entrepreneurs pitch their startups in front of investors (also called sharks) and walk away with funding from some https://gist.githubusercontent.com/murtuzakz/4bd887712703ff14c9b0f7c18229b332/raw/d0dd1c 59016e2488dcbe0c8e710a1c5df9c3672e/season7.jsonor all of the investors on the panel or nothing ) Write a program that takes the above URL as input and prints the following as output :
