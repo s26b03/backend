@@ -1,0 +1,47 @@
+import requests
+import json
+import company as cp
+from investors.offline import init_invested_mode, list
+import investors.investments as im
+
+if __name__ == '__main__':
+# Input URL
+#  url = 'https://gist.githubusercontent.com/murtuzakz/4bd887712703ff14c9b0f7c18229b332/raw/d0dd1c 
+59016e2488dcbe0c8e710a1c5df9c3672e/season7.json 
+print('URL?')
+url = input()
+# Request URL
+
+res = requests.get(url)
+
+
+# Retrieve JSON
+
+data = res.json()
+
+for json1 in rjson[key]:
+invest = jsonq1['investors']
+product = json1['product']
+product = product .replace('\n' ,'')
+invest_list = invest.replace(',',' and ') .split(' and ')
+ 
+ 
+ for invest in invest_list:
+ invest = invest.strip()
+ invest = invest.replace('\n' ,'').replace('o\u2019','').replace(' ',' ')
+ 
+if invest not in investor_to_product.keys() and invest1 !='':
+investor_to_product[invest] = []
+if invest!= '':
+investor_to_product[invest].append(product)
+dict_items = sorted(investor_to_product.items(),key=lambda  x:len(x[1]))
+i=1
+for k,v in dict_items:
+print(str(i)+ "."+k+" : "+str(v) +"\n")
+
+i=i+1
+
+
+
+
+
